@@ -36,11 +36,21 @@ socks5://user:pass@ip:port
 3️⃣ Cấu hình lại thông tin bot trong file config/settings.yaml. Trong đó ae cần quan tâm tới captcha_module và 2 key captcha đi kèm. Có 2 options là anticaptcha và 2captcha. AE dùng captcha nào thì nhập api_key của captcha đó vào.
 ###
 4️⃣ Chạy tool bằng lệnh :
+```
+###
+Ubuntu:
 
+apt install python3 python3-venv python3-dev
+python3.10 -m venv venv
+source venv/bin/activate
+python run.py
+
+###
 Windown or Termux:
 
 python run.py
-
+###
 MacOs or linux:
 
 python3 run.py
+```
